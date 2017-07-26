@@ -19,6 +19,8 @@ Global
 		StaticDebug|x64 = StaticDebug|x64
 		StaticRelease|Win32 = StaticRelease|Win32
 		StaticRelease|x64 = StaticRelease|x64
+		DyStaticRelease|Win32 = DyStaticRelease|Win32
+		DyStaticRelease|x64 = DyStaticRelease|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DynDebug|Win32.ActiveCfg = DebugDLL|Win32
@@ -45,6 +47,10 @@ Global
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.StaticRelease|Win32.Build.0 = ReleaseLIB|Win32
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.StaticRelease|x64.ActiveCfg = ReleaseLIB|x64
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.StaticRelease|x64.Build.0 = ReleaseLIB|x64
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DyStaticRelease|Win32.ActiveCfg = ReleaseDLIB|Win32
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DyStaticRelease|Win32.Build.0 = ReleaseDLIB|Win32
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DyStaticRelease|x64.ActiveCfg = ReleaseDLIB|x64
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DyStaticRelease|x64.Build.0 = ReleaseDLIB|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
